@@ -19,3 +19,9 @@ Finds relevant images as fallback or enhancement.
 ---
 
 More workflows will be added as the system evolves.
+
+### 💼 LinkedIn Automation
+Generates professional social media posts.
+
+### 🎨 Image Editing
+Enhances and modifies generated visuals.
