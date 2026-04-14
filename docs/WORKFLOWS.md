@@ -25,3 +25,6 @@ Generates professional social media posts.
 
 ### 🎨 Image Editing
 Enhances and modifies generated visuals.
+
+### 🎬 Faceless Video Pipeline
+Generates AI videos using Runway and adds voiceovers via ElevenLabs.
