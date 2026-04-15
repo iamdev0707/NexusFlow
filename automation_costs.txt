@@ -64,7 +64,7 @@ Used for: Video narration, voiceovers
   Audio (amortized): ~$0.20
   ─────────────────────────
   Total per run:     ~$1.25 – $2.00
-
+Estimated cost per campaign run: $0.50 - $2.00 depending on API usage
 ---
 
 ## Notes
