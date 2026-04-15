@@ -1,0 +1,75 @@
+# ContentForge — API Cost & Budget Reference
+
+## Overview
+
+This document breaks down the operational costs for running ContentForge's
+automated content pipeline. All services use pay-as-you-go pricing, keeping
+costs predictable and scalable.
+
+---
+
+## Component 1: Text Generation
+
+Service: Google AI
+Model: Gemini 1.5 Flash
+
+Pricing:
+  Input  (per 1,000 chars): $0.00001875
+  Output (per 1,000 chars): $0.000075
+
+Used for: Blog posts, LinkedIn copy, video scripts, agent prompts
+
+---
+
+## Component 2: Image Creation
+
+Service: OpenAI
+Model: DALL-E 3 — Standard Quality, 1024x1024
+
+Pricing:
+  Per image: ~$0.04
+
+Used for: Blog header images, LinkedIn visuals, video stills
+
+---
+
+## Component 3: Video Generation
+
+Service: Runway Gen-2
+
+Pricing:
+  Per 5-second clip: ~$0.25
+  Avg per video (4 clips): ~$1.00
+
+Used for: Faceless social media videos, promo clips
+
+---
+
+## Component 4: Voice & Audio
+
+Service: ElevenLabs — Starter Plan
+
+Pricing:
+  Subscription: $5.00 / month (covers typical usage volume)
+
+Used for: Video narration, voiceovers
+
+---
+
+## Estimated Cost Per Full Campaign Run
+
+  Text generation:   ~$0.01
+  Header image:      ~$0.04
+  Video (4 clips):   ~$1.00
+  Audio (amortized): ~$0.20
+  ─────────────────────────
+  Total per run:     ~$1.25 – $2.00
+
+---
+
+## Notes
+
+- Gemini 1.5 Flash has a generous free tier for experimentation
+- DALL-E 3 costs scale linearly — budget accordingly for bulk runs
+- ElevenLabs Starter gives ~30 min of audio/month, sufficient for most use cases
+- Runway credits can be pre-purchased in bundles for better rates
