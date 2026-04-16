@@ -32,3 +32,6 @@ Generates AI videos using Runway and adds voiceovers via ElevenLabs.
 ## Future Workflows
 - Video summarization
 - Multi-platform distribution
+
+## Notes
+Each workflow is designed to operate independently but can be combined through the central orchestrator.
